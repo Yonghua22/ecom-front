@@ -1,0 +1,26 @@
+[
+    {
+      "_id": "1",
+      "name": "Laptop",
+      "image": "laptop.jpg",
+      "price": 999.99
+    },
+    {
+      "_id": "2",
+      "name": "Smartphone",
+      "image": "smartphone.jpg",
+      "price": 599.99
+    },
+    {
+      "_id": "3",
+      "name": "Headphones",
+      "image": "headphones.jpg",
+      "price": 129.99
+    },
+    {
+      "_id": "4",
+      "name": "Smartwatch",
+      "image": "smartwatch.jpg",
+      "price": 199.99
+    }
+]
