@@ -1,10 +1,13 @@
 import { Row, Col } from 'react-bootstrap';
 import products from '../products';
 import Product from '../components/Product';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const HomeScreen = () => {
     return(
         <>
+        <Header />
         <div> Latest Products </div>
         <Row>
             {products.map((product)=> (
@@ -13,6 +16,7 @@ const HomeScreen = () => {
                 </Col>
             ))}
         </Row>
+        <Footer />
         </>
         
     );
