@@ -1,6 +1,6 @@
 import products from "../products"
 import { useNavigate, useParams } from 'react-router-dom';
-
+import Header from "../components/Header";
 import { Link } from 'react-router-dom';
 import Rating from '../components/Rating';
 import {
@@ -17,10 +17,13 @@ const ProductScreen = () => {
     const product = products.find((p) => p._id === productId)
 
     return(
+
        <>
+        <Header />
        <Link className='btn btn-light my-3' to = '/'>
 
        </Link>
+      
        <Row>
         <Col md = {5}>
             <Image src = {product.image} alt = {product.name} fluid/>
