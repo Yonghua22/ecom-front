@@ -5,6 +5,7 @@ import './assets/styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
 // import {
 //   createBrowserRouter,
 //   createRoutessFromElements,
@@ -23,7 +24,10 @@ import {
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+    <Route>
     <Route index={true} path='/' element={<HomeScreen />} />
+    <Route path='/product/:id' element={<ProductScreen />} />
+    </Route>
   )
 )
 
